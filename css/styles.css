@@ -1059,7 +1059,7 @@ top: 5vh;
   position: absolute;
   bottom:2.75vh;
   font-size: 26px;
-left: 7vw;
+left: 4vw;
 }
 
 
@@ -1067,7 +1067,7 @@ left: 7vw;
     position: absolute;
     bottom: -51.25vh;
     font-size: 26px;
-    left: -12vw;
+    left: -14vw;
 }
 
 .enterprise .blueBubble,
@@ -1078,13 +1078,13 @@ left: 7vw;
 }
 
 .footerBubbles{
-  left:16vw;
+  left:14vw;
   position: absolute;
 }
 
 
 .central .footerBubbles{
-  left: -2vw;
+  left: -4vw;
       position: absolute;
       bottom: -6vh;
 
