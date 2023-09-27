@@ -543,8 +543,8 @@ padding:4em 1.2em 0em 1.2em
 
 
 .slide-in-left2 {
-	-webkit-animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530)  2s both;
-	        animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530)  2s both;
+	-webkit-animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530)  1.8s both;
+	        animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530)  1.8s both;
 }
 
 @-webkit-keyframes slide-in-left2 {
