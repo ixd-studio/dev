@@ -651,7 +651,8 @@ p.grayish.black1.two {
 }
 
 .mLarge img{
-  max-width:18em
+  max-width:18em;
+
 }
 
 p.grayish{
