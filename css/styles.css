@@ -337,6 +337,33 @@ margin:0
 
 }
 
+.limeBubble.one:focus{
+    border: 4px solid #27C289;
+}
+
+.limeBubble.two:focus{
+    border: 4px solid #7DA8E8;
+}
+
+.limeBubble.two:focus p{
+  color:#7DA8E8
+}
+
+.limeBubble.three:focus{
+    border: 4px solid #62DBD3;
+}
+.limeBubble.three:focus p{
+  color:#62DBD3
+}
+
+.limeBubble.four:focus{
+    border: 4px solid #EBAC71;
+}
+
+.limeBubble.four:focus p{
+  color:#EBAC71
+}
+
 .limeBubble:focus{
   -webkit-animation: slide-left 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: slide-left 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -701,6 +728,53 @@ padding: 2rem 21rem;
       left: 7vw;
 }
 
+.lady{
+  top: -9vh;
+  position: absolute;
+  left: -3vh;
+  max-height: 63vh;
+}
+
+.middleRight {
+    top: 20vh;
+    position: absolute;
+    right: 1vh;
+    width: 40%;
+}
+
+.whiteTwo{
+
+    background: white;
+    width: 100vw;
+    padding: 3em 2em 10em 2em;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 54vh;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.whiteTwo .black{
+  font-size: 24px
+}
+
+.whiteTwo p.this{
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  line-height: 0
+}
+
+.green{
+  color:#0A8558;
+  font-family: 'Sora', sans-serif;
+  font-size: 48px;
+  line-height: 50px;
+  font-weight:700;
+  margin-bottom: .5em
+}
 
 .success .foam{
   bottom: 10vh;
