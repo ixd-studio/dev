@@ -784,7 +784,7 @@ padding: 2rem 21rem;
     justify-content: center;
     align-items: center;
     text-align: center;
-    top: 50vh;
+    top: 49.4vh;
     position: absolute;
     z-index: 5;
 }
@@ -904,7 +904,7 @@ font-family: 'Sora', sans-serif;
 }
 .lightBlueBack{
   background: #EEFAFD;
-  top: 60vh;
+  top: 59vh;
     position: absolute;
     padding: 2rem 0em;
     width: 100%;
@@ -913,7 +913,7 @@ font-family: 'Sora', sans-serif;
     align-items: center;
     flex-direction: column;
 }
-.lightBlueBack img{
+.lightBlueBack .d-flex  img{
   width:1em
 }
 
