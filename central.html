@@ -89,7 +89,8 @@
 				</div>
 
 
-				<div class="bigBlue two"><p>Guided Tour</p></div>
+				<div class="bigBlue two" role="button" data-toggle="modal" data-target="#feedbackModal" tabindex="0" aria-describedby="Show Feedback Questions" aria-label="Show Feedback Questions">
+          <p>Guided Tour</p></div>
 
 
 
@@ -208,6 +209,110 @@
 
 
 				<div class="hero-bottom"></div>
+</div>
+
+        <div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button role="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+              </div>
+              <div class="modal-body">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-interval="false">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="carousel-caption d-flex flex-column h-100 align-items-center">
+                        <h2 class="mt-5">Trial Creation</h2>
+
+
+
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6Mbpv_U9psw" title="Select to play the ECLS video"></iframe>
+
+
+                      </div>
+
+                    </div>
+                    <div class="carousel-item">
+                      <div class="carousel-caption d-flex flex-column h-100 align-items-center">
+                        <h2 class="mt-5">Add Sites</h2>
+
+
+
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6Mbpv_U9psw" title="Select to play the ECLS video"></iframe>
+
+
+                      </div>
+
+                    </div>
+                    <div class="carousel-item">
+                      <div class="carousel-caption d-flex flex-column h-100 align-items-center">
+                        <h2 class="mt-5">Trial Management</h2>
+
+
+
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6Mbpv_U9psw" title="Select to play the ECLS video"></iframe>
+
+
+                      </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="carousel-caption d-flex flex-column h-100 align-items-center">
+                        <h2 class="mt-5">Trial Monitoring</h2>
+
+
+
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6Mbpv_U9psw" title="Select to play the ECLS video"></iframe>
+
+
+                      </div>
+
+                    </div>
+
+                    <div class="carousel-item" id="five">
+                      <div class="carousel-caption d-flex flex-column h-100 align-items-center">
+                        <h2 class="mt-5">Reports and Dashboards</h2>
+
+
+
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6Mbpv_U9psw" title="Select to play the ECLS video"></iframe>
+
+
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <i class="far fa-arrow-left greenColor"></i>
+                    <!-- <span class="visually-hidden">Previous</span> -->
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                 <i class="far fa-arrow-right greenColor"></i>
+                    <!-- <span class="visually-hidden">Next</span> -->
+                  </button>
+                </div>
+
+                <p class="green doneP">Done</p>
+
+              </div>
+
+            </div>
+    </div>
+
+    </div>
+
 
 		</div>
 
@@ -219,6 +324,7 @@
 
 <script type="text/javascript" src="vendorlibs/jquery.min.js"></script>
 <script type="text/javascript" src="vendorlibs/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 

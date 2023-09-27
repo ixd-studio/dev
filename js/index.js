@@ -1,3 +1,20 @@
+
+$('#carouselExampleIndicators').on('slid.bs.carousel', function () {
+
+if ($('#five').is('.carousel-item.active')) {
+  $('.doneP').show();
+}
+else{
+    $('.doneP').hide();
+}
+
+})
+
+
+
+
+
+
 //IE message
 
 var version = detectIE();
@@ -120,6 +137,25 @@ e.stopPropagation()
 }, 600)
 
 })
+
+
+
+
+var dot = $('.dot');
+var pos1 = $('ol.carousel-indicators li.active').position();
+dot.stop().animate({left:  pos1.left, top:  pos1.top},100, );
+
+$('#carousel-example-generic').on('slid.bs.carousel', function () {
+ pos1 = $('ol.carousel-indicators li.active').position();
+  dot.stop().animate({left:  pos1.left, top:  pos1.top},100, );
+
+})
+$(window).resize( function(){
+ pos1 = $('ol.carousel-indicators li.active').position();
+  dot.stop().animate({left:  pos1.left, top:  pos1.top},100, );
+});
+
+
 //508 tabbing
 
 $("a, button, input, [tabIndex='0'], #one, .closeRadio, .card-link").on("keyup", function (e) {
