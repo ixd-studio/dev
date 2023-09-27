@@ -757,7 +757,7 @@ height: 16em;
 
 .show2 img,
 .show3 img{
-      margin: 2em;
+margin: 0em 2em 2em 2em;
 }
 
 .cloud1{
