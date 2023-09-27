@@ -319,7 +319,7 @@ header .end a{
   display: flex;
   align-items: center;
   justify-content: center;
-
+ -webkit-transition: all .6s ease;
 }
 .limeBubble p {
 color:#27C289;
@@ -340,13 +340,15 @@ margin:0
 .limeBubble.one:focus,
 .limeBubble.one:active,
 .limeBubble.one:hover{
-    border: 4px solid #27C289;
+    border: 7px solid #27C289;
+   padding: 1.3rem 3.2rem;
 }
 
 .limeBubble.two:focus,
 .limeBubble.two:active,
 .limeBubble.two:hover{
-    border: 4px solid #7DA8E8;
+    border: 7px solid #7DA8E8;
+  padding: 1.3rem 3.2rem;
 }
 
 .limeBubble.two:focus p,
@@ -358,7 +360,8 @@ margin:0
 .limeBubble.three:focus,
 .limeBubble.three:active,
 .limeBubble.three:hover{
-    border: 4px solid #62DBD3;
+    border: 7px solid #62DBD3;
+    padding: 1.3rem 3.2rem;
 }
 .limeBubble.three:focus p,
 .limeBubble.three:active p,
@@ -369,13 +372,14 @@ margin:0
 .limeBubble.four:focus,
 .limeBubble.four:active,
 .limeBubble.four:hover{
-    border: 4px solid #EBAC71;
+    border: 7px solid #DB791F;
+    padding: 1.3rem 3.2rem;
 }
 
 .limeBubble.four:focus p,
 .limeBubble.four:active p,
 .limeBubble.four:hover p {
-  color:#EBAC71
+  color:#DB791F
 }
 
 .show3 .fab{
