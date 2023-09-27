@@ -655,6 +655,12 @@ p.grayish.black1.two {
 
 }
 
+
+.mLarge .col-md-12 img{
+  max-width:18em;
+  padding: 0.5em 1.75em;
+}
+
 p.grayish{
   font-family: 'Sora', sans-serif !important;
   color:#9CADC9;
