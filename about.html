@@ -164,33 +164,25 @@
 <script type="text/javascript" src="js/index.js"></script>
 
 <script>
+var idleTime;
 
+$(document).ready(function () {
+				 reloadPage();
+				$('html').bind('mousemove click mouseup mousedown keydown keypress keyup submit change mouseenter scroll resize dblclick', function () {
+						clearTimeout(idleTime);
+						reloadPage();
+				});
+});
+function reloadPage() {
 
+		clearTimeout(idleTime);
+		idleTime = setTimeout(function () {
+				location.href = "index.html";
+				location.href.reload();
+		}, 45000);
+}
 
-  const counter = function() {
-    const counters = document.querySelectorAll(".counter");
-    counters.forEach((counter) => {
-      const target = +counter.getAttribute("data-target");
-      const increment = target / 500;
-      console.log(increment);
-
-      function updateCounter() {
-        const c = +counter.innerText;
-
-        if (c < target) {
-          counter.innerText = `${Math.ceil(c + increment)}`;
-          window.requestAnimationFrame(updateCounter);
-        } else {
-          counter.innerText = target;
-        }
-      }
-      updateCounter();
-    });
-  }
-
-  counter();
-
-  </script>
+</script>
 
 </body>
 </html>
