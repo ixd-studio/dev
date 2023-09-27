@@ -771,6 +771,11 @@ top: 13%;
   to { transform: translateX(calc(-60cqw - 100%)) }
 }
 
+a:hover {
+
+    text-decoration: none;
+}
+
 .bigBlue{
   background: linear-gradient(90deg, #156A8E 0%, #1A779F 100%);
 border-radius: 3rem;
@@ -833,6 +838,7 @@ padding: 2rem 21rem;
     top: 54vh;
     justify-content: center;
     flex-direction: column;
+        z-index: -1;
 
 }
 
@@ -841,11 +847,15 @@ padding: 2rem 21rem;
 }
 
 .whiteTwo p.this{
-  font-size: 30px !important;
+  font-size: 34px !important;
   font-weight: 700 !important;
   line-height: 0
 }
 
+.whiteTwo p.this img {
+
+margin-top: 0.2em;
+}
 .green{
   color:#0A8558;
   font-family: 'Sora', sans-serif;
@@ -903,7 +913,9 @@ font-family: 'Sora', sans-serif;
     align-items: center;
     flex-direction: column;
 }
-
+.lightBlueBack img{
+  width:1em
+}
 
 .lightBlueBack.two {
     background: #EEFAFD;
@@ -923,7 +935,7 @@ font-family: 'Sora', sans-serif;
 
 .lightBlueBack.whiteBack{
   background: transparent;
-  top: 75vh;
+  top: 74vh;
 
 }
 
@@ -5391,7 +5403,7 @@ min-height: 360px;
   color: #475F85 !important;
   position: absolute;
   right: 1rem;
-  top: 0.5rem;
+  top: 0.75rem;
   margin: 0;
   font-size: 40px;
 
@@ -5461,7 +5473,7 @@ text-align: center;
 
 #feedbackModal .carousel-inner {
   position: relative;
-  height: 440px;
+height: 600px;
 }
 
 
@@ -5492,7 +5504,7 @@ text-align: center;
 }
 #feedbackModal .modal-body {
   padding: 0rem 0em 5em 0em !important;
-  min-height: 600px
+  min-height: 700px
 }
 
 ol.carousel-indicators{
@@ -5503,7 +5515,7 @@ ol.carousel-indicators{
 .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: -6em;
+    bottom: -17em;
     left: 0;
     z-index: 15;
     display: -ms-flexbox;
@@ -5788,7 +5800,7 @@ font-family: 'Public Sans', sans-serif;
   right: 23%;
   position: absolute;
   top: unset;
-bottom: -6.8em;
+bottom: -17.8em;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -5844,7 +5856,7 @@ padding: 10px 15px;
   left: 23%;
   position: absolute;
   top: unset;
-   bottom: -6.8em;
+   bottom: -17.8em;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -5885,7 +5897,7 @@ border: none;
 }
 #feedbackModal .modal-body {
     padding: 0rem 0em 5em 0em !important;
-    min-height: 700px;
+    min-height: 900px;
 }
 #feedbackModal h2 {
     font-size: 42px;
@@ -5916,8 +5928,8 @@ p.green.doneP {
     color: #1C9D6E;
     display: none;
     position: absolute;
-    bottom: 0.25em;
-    font-weight: 400;
+    bottom: 0.75em;
+    font-weight: 700 !important;
     font-family: 'Mulish', sans-serif;
     left: calc(50% - 1.25em);
 }
