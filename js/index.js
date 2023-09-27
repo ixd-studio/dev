@@ -12,9 +12,6 @@ else{
 
 
 
-
-
-
 //IE message
 
 var version = detectIE();
@@ -139,7 +136,7 @@ e.stopPropagation()
 })
 
 
-// 
+//
 // function toggleMute() {
 //
 //   var video=document.getElementById("videoId");
