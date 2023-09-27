@@ -764,7 +764,7 @@ height: 16em;
 
 .show2 img,
 .show3 img{
-margin: 0em 2em 2em 2em;
+margin: 0em 10em 2em 10em;
 }
 
 .cloud1{
@@ -829,7 +829,7 @@ padding: 2rem 21rem;
     line-height: 1;
     width: 88vw;
         z-index: 5;
-        box-shadow: 0px 10px 30px 0px rgba(21, 90, 129, 0.21); 
+        box-shadow: 0px 10px 30px 0px rgba(21, 90, 129, 0.21);
 }
 
 .foam{
