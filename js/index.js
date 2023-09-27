@@ -27,7 +27,7 @@ $('.openIt').click(function() {
   $('.show1').show().addClass('align').css('display', 'flex')
     $('#slideOut').addClass('zIndex0')
     $('#side-menu-container').animate({
-      'top' : '2%',
+      'top' : '8%',
       'bottom' : '0'
 
     }, 500);
