@@ -678,6 +678,7 @@ p.grayish.black1{
 
 
 
+
 .limeBubble.three{
   position: absolute;
 
@@ -748,6 +749,11 @@ height: 16em;
       justify-content: center;
       width: 30em;
 
+}
+
+.show2 img,
+.show3 img{
+      margin: 2em;
 }
 
 .cloud1{
