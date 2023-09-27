@@ -38,7 +38,61 @@ function detectIE() {
 //IE message end
 
 
+$('.openIt').click(function() {
 
+  $('.show1').show().addClass('align')
+    $('#slideOut').addClass('zIndex0')
+    $('#side-menu-container').animate({
+      'top' : '2%',
+      'bottom' : '0'
+
+    }, 500);
+
+
+
+})
+
+$('.openIt.two').click(function() {
+  $('.show1').hide()
+  $('.show2').show().addClass('align')
+})
+
+$('#closeIt').click(function(e) {
+e.stopPropagation()
+  $('#slideOut').removeClass('zIndex0')
+  $('#side-menu-container').animate({
+    'top' : '100%',
+    'bottom' : '-100%'
+
+  }, 500);
+
+ setTimeout(function() {
+  $('.show1').hide().removeClass('align')
+  $('.show2').hide().removeClass('align')
+
+
+}, 600)
+
+})
+
+
+$('#closeIt2').click(function(e) {
+e.stopPropagation()
+  $('#slideOut').removeClass('zIndex0')
+  $('#side-menu-container').animate({
+    'top' : '100%',
+    'bottom' : '-100%'
+
+  }, 500);
+
+ setTimeout(function() {
+
+  $('.show2').hide().removeClass('align')
+
+
+}, 600)
+
+})
 //508 tabbing
 
 $("a, button, input, [tabIndex='0'], #one, .closeRadio, .card-link").on("keyup", function (e) {
