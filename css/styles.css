@@ -720,7 +720,7 @@ p.grayish.black1{
   top: 44vh;
   right: 8vw;
 
-
+--animate-duration: .7s;
 }
 
 .lime.four{
@@ -774,6 +774,14 @@ top: 13%;
 a:hover {
 
     text-decoration: none;
+}
+
+.hidden{
+  display: none
+}
+
+.mainPage{
+  display: none
 }
 
 .bigBlue{
