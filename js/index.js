@@ -40,7 +40,7 @@ function detectIE() {
 
 $('.openIt').click(function() {
 
-  $('.show1').show().addClass('align')
+  $('.show1').show().addClass('align').css('display', 'flex')
     $('#slideOut').addClass('zIndex0')
     $('#side-menu-container').animate({
       'top' : '2%',
@@ -54,7 +54,14 @@ $('.openIt').click(function() {
 
 $('.openIt.two').click(function() {
   $('.show1').hide()
-  $('.show2').show().addClass('align')
+  $('.show3').hide()
+  $('.show2').show().addClass('align').css('display', 'flex')
+})
+
+$('.openIt.three').click(function() {
+  $('.show1').hide()
+  $('.show2').hide()
+  $('.show3').show().addClass('align').css('display', 'flex')
 })
 
 $('#closeIt').click(function(e) {
@@ -69,7 +76,7 @@ e.stopPropagation()
  setTimeout(function() {
   $('.show1').hide().removeClass('align')
   $('.show2').hide().removeClass('align')
-
+  $('.show3').hide().removeClass('align')
 
 }, 600)
 
@@ -86,7 +93,27 @@ e.stopPropagation()
   }, 500);
 
  setTimeout(function() {
+    $('.show1').hide().removeClass('align')
+  $('.show3').hide().removeClass('align')
+  $('.show2').hide().removeClass('align')
 
+
+}, 600)
+
+})
+
+$('#closeIt3').click(function(e) {
+e.stopPropagation()
+  $('#slideOut').removeClass('zIndex0')
+  $('#side-menu-container').animate({
+    'top' : '100%',
+    'bottom' : '-100%'
+
+  }, 500);
+
+ setTimeout(function() {
+    $('.show1').hide().removeClass('align')
+  $('.show3').hide().removeClass('align')
   $('.show2').hide().removeClass('align')
 
 
