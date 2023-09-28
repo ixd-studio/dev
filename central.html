@@ -93,7 +93,7 @@
           <p>Guided Tour</p>
 				</div>
 
-
+			<p class="jelly third openIt bean"><i class="fas fa-info-circle"></i> <u>How is PROPEL different from a CTMS?</u></p>
 
 				<div class="lightBlueBack two">
 
@@ -173,7 +173,10 @@
     <div class="show1">
       <h3 class="strong mb-0">Solution Comparison</h3>
       <i class="far fa-times  fa-3x" id="closeIt"></i>
-      <img src="./devana-img/Comparison.png" class="img-responsive">
+     <img src="./devana-img/Comparison.png" class="img-responsive none">
+		 <div class="scrollImg">
+			  <img src="./devana-img/red.svg" class="img-responsive">
+		 </div>
     </div>
       <div class="show2">
         <h3 class="strong mb-0">Schedule a Demo!</h3>
@@ -338,21 +341,21 @@
 <script>
 var idleTime;
 
-$(document).ready(function () {
-				 reloadPage();
-				$('html').bind('mousemove click mouseup mousedown keydown keypress keyup submit change mouseenter scroll resize dblclick', function () {
-						clearTimeout(idleTime);
-						reloadPage();
-				});
-});
-function reloadPage() {
-
-		clearTimeout(idleTime);
-		idleTime = setTimeout(function () {
-				location.href = "index.html";
-				location.href.reload();
-		}, 45000);
-}
+// $(document).ready(function () {
+// 				 reloadPage();
+// 				$('html').bind('mousemove click mouseup mousedown keydown keypress keyup submit change mouseenter scroll resize dblclick', function () {
+// 						clearTimeout(idleTime);
+// 						reloadPage();
+// 				});
+// });
+// function reloadPage() {
+//
+// 		clearTimeout(idleTime);
+// 		idleTime = setTimeout(function () {
+// 				location.href = "index.html";
+// 				location.href.reload();
+// 		}, 45000);
+// }
 
 </script>
 

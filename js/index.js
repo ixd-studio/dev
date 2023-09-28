@@ -30,7 +30,8 @@ $('.mainPage').fadeIn()
 
 
 $('.openIt').click(function() {
-
+$('.scrollImg').hide()
+$('.none').show()
   $('.show1').show().addClass('align').css('display', 'flex')
     $('#slideOut').addClass('zIndex0')
     $('#side-menu-container').animate({
@@ -48,6 +49,7 @@ $('.openIt.two').click(function() {
   $('.show3').hide()
   $('.show2').show().addClass('align').css('display', 'flex')
   $('.social').css('z-index', '-1')
+  $('.none').show()
 })
 
 $('.openIt.three').click(function() {
@@ -55,6 +57,7 @@ $('.openIt.three').click(function() {
   $('.show2').hide()
   $('.show3').show().addClass('align').css('display', 'flex')
   $('.social').css('z-index', '-1')
+  $('.none').show()
 })
 
 $('#closeIt').click(function(e) {
@@ -78,6 +81,13 @@ setTimeout(function() {
 $('.social').css('z-index', '1')
 
 }, 400)
+
+})
+
+
+$('.openIt.bean').click(function(e) {
+$('.none').hide()
+$('.scrollImg').show()
 
 })
 
