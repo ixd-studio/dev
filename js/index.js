@@ -40,7 +40,7 @@ $('.none').show()
 
     }, 500);
 
-$('.social').css('z-index', '-1')
+$('.social, .bigBlue').css('z-index', '-1')
 
 })
 
@@ -48,7 +48,7 @@ $('.openIt.two').click(function() {
   $('.show1').hide()
   $('.show3').hide()
   $('.show2').show().addClass('align').css('display', 'flex')
-  $('.social').css('z-index', '-1')
+$('.social, .bigBlue').css('z-index', '-1')
   $('.none').show()
 })
 
@@ -56,7 +56,7 @@ $('.openIt.three').click(function() {
   $('.show1').hide()
   $('.show2').hide()
   $('.show3').show().addClass('align').css('display', 'flex')
-  $('.social').css('z-index', '-1')
+$('.social, .bigBlue').css('z-index', '-1')
   $('.none').show()
 })
 
@@ -78,7 +78,7 @@ e.stopPropagation()
 }, 600)
 
 setTimeout(function() {
-$('.social').css('z-index', '1')
+$('.social, .bigBlue').css('z-index', '1')
 
 }, 400)
 
@@ -109,8 +109,9 @@ e.stopPropagation()
 
 }, 600)
 
+
 setTimeout(function() {
-$('.social').css('z-index', '1')
+$('.social, .bigBlue').css('z-index', '1')
 
 }, 400)
 
@@ -133,8 +134,9 @@ e.stopPropagation()
 
 }, 600)
 
- setTimeout(function() {
-$('.social').css('z-index', '1')
+
+setTimeout(function() {
+$('.social, .bigBlue').css('z-index', '1')
 
 }, 400)
 
