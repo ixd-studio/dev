@@ -13,9 +13,16 @@ else{
 
 $(window).on('load', function() {
 setTimeout(function() {
-$('.movie').fadeOut()
-$('.mainPage').fadeIn()
+$('.movie').hide()
+
 }, 2000)
+
+
+
+setTimeout(function() {
+
+$('.mainPage').fadeIn()
+}, 1900)
 
 
 
