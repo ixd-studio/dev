@@ -33,7 +33,7 @@
 
 	<div class="main overflow-hidden" id="overview">
 
-
+	<div class="scrollIt">
 
 		<div class="hero-img-container">
 
@@ -115,6 +115,10 @@
 
 
 
+			<p class="jelly openIt"><i class="fas fa-info-circle"></i> <u>How is PROPEL different from a CTMS?</u></p>
+
+
+
 			<div class="lightBlueBack">
 
 				<img src="./devana-img/lynk.svg" class="img-responsive mb-2">
@@ -134,7 +138,7 @@
 				</div>
 
 
-				<i class="far fa-arrow-down absoAngle"></i>
+				<a href="#section-1" class="js-anchor-link"><i class="far fa-arrow-down absoAngle"></i></a>
 
 			</div>
 
@@ -145,22 +149,35 @@
 
 				<p class="first mb-4">Other Features</p>
 
-				<div class="d-flex justify-content-center align-items-center">
-					<p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">Track Indications by Trial</span></p>
-					<p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">Accounts</span></p>
 
-				</div>
 
-				<div class="d-flex justify-content-center align-items-center">
-					<p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">Site Locations</span></p>
+					<div class="d-flex justify-content-center align-items-baseline">
+
+						<div class="d-flex justify-content-start align-items-center flex-column">
+						<p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">Track Indications by Trial</span></p>
+					  <p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">Site Locations</span></p>
+					  <p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">Contact Relationship<br><span class="pl-4 ml-3">Management</span></span></p>
+					  <p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">PI Oversight</span></p>
+
+
+					</div>
+
+						<div class="d-flex justify-content-start align-items-center flex-column">
+						<p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">Accounts</span></p>
 					<p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">Track Multiple Contracts</span></p>
-
-				</div>
-
+					<p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">Single Sign-On</span></p>
+					<p class="this"><img src="./devana-img/angle.svg" class="img-responsive"> <span class="gray">Real-time Communication</span></p>
+					</div>
 
 			</div>
+			<div id="section-1" class="section"></div>
 
 
+		</div>
+
+</div>
+
+</div>
 
 			<div class="d-flex justify-content-start align-items-center foam">
 				<a href="index.html">
@@ -374,21 +391,33 @@
 				<script>
 				var idleTime;
 
-				$(document).ready(function () {
-				         reloadPage();
-				        $('html').bind('mousemove click mouseup mousedown keydown keypress keyup submit change mouseenter scroll resize dblclick', function () {
-				            clearTimeout(idleTime);
-				            reloadPage();
-				        });
-				});
-				function reloadPage() {
+				// $(document).ready(function () {
+				//          reloadPage();
+				//         $('html').bind('mousemove click mouseup mousedown keydown keypress keyup submit change mouseenter scroll resize dblclick', function () {
+				//             clearTimeout(idleTime);
+				//             reloadPage();
+				//         });
+				// });
+				// function reloadPage() {
+				//
+				//     clearTimeout(idleTime);
+				//     idleTime = setTimeout(function () {
+				// 				location.href = "index.html";
+				//         location.href.reload();
+				//     }, 45000);
+				// }
 
-				    clearTimeout(idleTime);
-				    idleTime = setTimeout(function () {
-								location.href = "index.html";
-				        location.href.reload();
-				    }, 45000);
-				}
+
+	$('.js-anchor-link').click(function(e){
+
+  e.preventDefault();
+	$('.scrollIt').css('overflow-y', 'scroll')
+  var target = $($(this).attr('href'));
+  if(target.length){
+    var scrollTo = target.offset().top;
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+  }
+});
 
 				</script>
 
