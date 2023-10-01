@@ -382,6 +382,13 @@ header .end a{
   color:#DB791F
 }
 
+.limeBubble.five:focus p,
+.limeBubble.five:active p,
+.limeBubble.five:hover p {
+color:#F5C69A
+
+}
+
 .show3 .fab{
   font-size: 140px;
   margin-top: 1em;
@@ -662,6 +669,8 @@ p.grayish.black1.two {
   padding: 0.5em 1.75em;
 }
 
+
+
 p.grayish{
   font-family: 'Sora', sans-serif !important;
   color:#9CADC9;
@@ -798,6 +807,36 @@ font-size: 33px !important;
 
 }
 
+.integrations .foam {
+    bottom: 9.5vh !important;
+    position: absolute;
+    width: 100vw;
+    left: 3vh !important;
+
+
+}
+.blueBubble p.white{
+font-size: 2rem;
+
+}
+
+.integrations .blueBubble {
+    padding: 0.64rem 2.2rem !important;
+}
+
+.integrations .footerBubbles {
+    left: 2vw !important;
+    position: absolute;
+    bottom: unset !important;
+}
+
+.integrations .social {
+    position: absolute;
+    bottom: 2.8vh !important;
+    font-size: 24px !important;
+    left: 40vw !important;
+}
+
 .jelly.third{
   top: 38.5vh !important;
 }
@@ -850,7 +889,7 @@ a:hover {
   bottom: 10vh;
   position: absolute;
   width: 100vw;
-  left: 7vw;
+left: 5.4vw;
 }
 
 .lady{
@@ -858,6 +897,7 @@ a:hover {
   position: absolute;
   left: -3vh;
   max-height: 63vh;
+      max-width: unset;
 }
 
 .middleRight {
@@ -910,7 +950,14 @@ a:hover {
   bottom: 10vh;
   position: absolute;
   width: 100vw;
-  left: 12vw;
+  left: 8.6vw;
+}
+
+.about .foam {
+    bottom: 10vh;
+    position: absolute;
+    width: 100vw;
+    left: 3vw;
 }
 
 .foamBubble{
@@ -930,7 +977,7 @@ a:hover {
 .foamBubble i,
 .foamBubble p{
   color:#14714F;
-  font-size: 34px;
+  font-size: 29px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1004,7 +1051,7 @@ height: 110vh
 
 .enterprise .blueBubble,
 .enterprise .footerBubbles{
-top: 46.6vh !important;
+top: 46.9vh !important;
 }
 
 p.first {
@@ -1106,17 +1153,18 @@ p.big{
 
 .social{
   position: absolute;
-  bottom:2.75vh;
-  font-size: 26px;
-  left: 4vw;
+  bottom: 2.9vh;
+      font-size: 23px;
+      left: 41vw;
 }
 
 
 .central .social {
   position: absolute;
-  bottom: -53.25vh;
-  font-size: 26px;
-  left: -14vw;
+      bottom: -53.8vh;
+      font-size: 22px;
+      left: 21vw;
+
 }
 
 .enterprise .blueBubble,
@@ -1127,15 +1175,15 @@ p.big{
 }
 
 .footerBubbles{
-  left:14vw;
+  left:3vw;
   position: absolute;
 }
 
 
 .central .footerBubbles{
-  left: -4vw;
+  left: -16vw;
   position: absolute;
-  bottom: -7.9vh;
+  bottom: -8.5vh;
 
 }
 
@@ -1143,7 +1191,7 @@ p.big{
   bottom: -47vh;
   position: absolute;
   width: 100vw;
-  left: -13vw;
+  left: -15vw;
 }
 
 .scrollImg{
@@ -1176,7 +1224,7 @@ p.big{
 
 .central .blueBubble{
 
-  padding: 1rem 2rem;
+  padding: 0.75rem 2rem;
 }
 
 .enterprise  .blueBubble p.white,
@@ -1249,7 +1297,7 @@ span.gray{
 }
 
 
-p.white {
+.homeBubbles p.white {
   color: white !important;
   font-size: 2.5rem;
   font-weight: 700 !important;
