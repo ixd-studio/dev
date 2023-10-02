@@ -590,8 +590,8 @@ color:#F5C69A
 
 
 .slide-in-left2 {
-  -webkit-animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530)  1.6s both;
-  animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530)  1.6s both;
+  -webkit-animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530)  2.6s both;
+  animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530)  2.6s both;
 }
 
 @-webkit-keyframes slide-in-left2 {
@@ -621,8 +621,8 @@ color:#F5C69A
 
 
 .slide-in-left3 {
-  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530)  2.4s both;
-  animation: slide-in-left 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530)  2.4s both;
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530)  4s both;
+  animation: slide-in-left 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530)  4s both;
 }
 
 @-webkit-keyframes slide-in-left3 {
