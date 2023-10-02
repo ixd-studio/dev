@@ -391,6 +391,13 @@ color:#F5C69A
 
 }
 
+.limeBubble.five:focus,
+.limeBubble.five:active,
+.limeBubble.five:hover{
+  border: 7px solid #F5C69A;
+padding: 1.3rem 3.2rem;
+}
+
 .show3 .fab{
   font-size: 140px;
   margin-top: 1em;
