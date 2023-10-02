@@ -853,13 +853,13 @@ top: 50vh;
 .cloud1{
   position: absolute;
   top: 1%;
-  animation: move 10s ease-in-out alternate infinite;
+  animation: move 10s linear alternate infinite;
   left:0
 }
 .cloud2{
   position: absolute;
   top: 13%;
-  animation: moveAgain 10s ease-in-out alternate infinite;
+  animation: moveAgain 10s linear alternate infinite;
   right:0
 }
 
