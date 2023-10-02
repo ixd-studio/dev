@@ -820,7 +820,7 @@ top: 42vh;
   position: absolute;
   top: 53vh;
   right: 7vw;
---animate-duration: .7s;
+--animate-duration: .5s;
 top: 50vh;
     right: 8vw;
 }
