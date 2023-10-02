@@ -30,6 +30,11 @@ $('.mainPage').fadeIn()
 
 
 $('.openIt').click(function() {
+
+$('#side-menu-container').toggleClass('flipThis')
+
+if ($('#side-menu-container').hasClass('flipThis')) {
+
 $('.scrollImg').hide()
 $('.none').show()
   $('.show1').show().addClass('align').css('display', 'flex')
@@ -41,6 +46,10 @@ $('.none').show()
     }, 500);
 
 $('.social, .bigBlue').css('z-index', '-1')
+
+}
+
+
 
 })
 
