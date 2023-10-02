@@ -628,8 +628,8 @@ padding: 1.3rem 3.2rem;
 
 
 .slide-in-left3 {
-  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530)  4s both;
-  animation: slide-in-left 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530)  4s both;
+  -webkit-animation: slide-in-left 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530)  3.4s both;
+  animation: slide-in-left 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530)  3.4s both;
 }
 
 @-webkit-keyframes slide-in-left3 {
@@ -747,7 +747,7 @@ p.grayish.black1{
   position: absolute;
 right: 8.3vw;
 top: 42vh;
-  --animate-duration: .9s;
+  --animate-duration: 1.2s;
 }
 
 .limeBubble.five{
@@ -820,7 +820,7 @@ top: 42vh;
   position: absolute;
   top: 53vh;
   right: 7vw;
---animate-duration: 1.4s;
+--animate-duration: .7s;
 top: 50vh;
     right: 8vw;
 }
