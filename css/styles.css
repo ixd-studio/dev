@@ -566,14 +566,14 @@ padding: 1.3rem 3.2rem;
 
 
 .slide-in-left1 {
-  -webkit-animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0s both;
-  animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0s both;
+  -webkit-animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) .5s both;
+  animation: slide-in-left 0.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) .5s both;
 }
 
 @-webkit-keyframes slide-in-left1 {
   0% {
-    -webkit-transform: translateX(-50px);
-    transform: translateX(-50px);
+    -webkit-transform: translateX(-60px);
+    transform: translateX(-60px);
     opacity: 0;
   }
   100% {
@@ -584,8 +584,8 @@ padding: 1.3rem 3.2rem;
 }
 @keyframes slide-in-left1 {
   0% {
-    -webkit-transform: translateX(-50px);
-    transform: translateX(-50px);
+    -webkit-transform: translateX(-60px);
+    transform: translateX(-60px);
     opacity: 0;
   }
   100% {
