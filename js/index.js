@@ -31,9 +31,9 @@ $('.mainPage').fadeIn()
 
 $('.openIt').click(function() {
 
-$('#side-menu-container').toggleClass('flipThis')
 
-if ($('#side-menu-container').hasClass('flipThis')) {
+
+if (!$('#side-menu-container').hasClass('flipThis')) {
 
 $('.scrollImg').hide()
 $('.none').show()
@@ -46,6 +46,9 @@ $('.none').show()
     }, 500);
 
 $('.social, .bigBlue').css('z-index', '-1')
+
+
+$('#side-menu-container').addClass('flipThis')
 
 }
 
@@ -69,8 +72,11 @@ $('.social, .bigBlue').css('z-index', '-1')
   $('.none').show()
 })
 
-$('#closeIt').click(function(e) {
-e.stopPropagation()
+$('#side-menu-container').click(function(e) {
+// e.stopPropagation()
+
+if ($('#side-menu-container').hasClass('flipThis')) {
+
   $('#slideOut').removeClass('zIndex0')
   $('#side-menu-container').animate({
     'top' : '100%',
@@ -87,9 +93,13 @@ e.stopPropagation()
 }, 600)
 
 setTimeout(function() {
-$('.social, .bigBlue').css('z-index', '1')
+$('.social').css('z-index', '1')
+$('.bigBlue').css('z-index', '1')
 
+$('#side-menu-container').removeClass('flipThis')
 }, 400)
+
+}
 
 })
 
