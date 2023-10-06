@@ -185,11 +185,7 @@ $('.scrollImg').show()
 // })
 
 
-$('#feedbackModal').on('shown.bs.modal', function(){
-  $('.carousel').carousel(0);
-  $('#videoId')[0].load();
 
-})
 
 var dot = $('.dot');
 var pos1 = $('ol.carousel-indicators li.active').position();
