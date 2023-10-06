@@ -1,7 +1,5 @@
 
-$(document).ready(function(){
-      $("#videoId").show();
-});
+
 
 
 $('#carouselExampleIndicators').on('slid.bs.carousel', function () {
