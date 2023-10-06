@@ -1,4 +1,9 @@
 
+$(document).ready(function(){
+      $("#videoId").show();
+});
+
+
 $('#carouselExampleIndicators').on('slid.bs.carousel', function () {
 
 if ($('#five').is('.carousel-item.active')) {
