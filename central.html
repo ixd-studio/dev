@@ -345,6 +345,10 @@
 <script type="text/javascript" src="vendorlibs/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.js"></script>
+
+<script>
+$("#videoId").show();
+</script>
 <script type="text/javascript" src="js/index.js"></script>
 
 <script>
@@ -352,7 +356,7 @@
 
 
 $(document).ready(function(){
-      $("#videoId").show();
+
 			$('#feedbackModal').on('shown.bs.modal', function(){
 			  $('.carousel').carousel(0);
 			  $('#videoId')[0].load();
