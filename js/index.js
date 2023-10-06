@@ -184,6 +184,7 @@ $('.scrollImg').show()
 
 $('#feedbackModal').on('shown.bs.modal', function(){
   $('.carousel').carousel(0);
+  $('#videoId')[0].load();
 
 })
 
